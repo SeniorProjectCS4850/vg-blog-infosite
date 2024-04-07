@@ -16,7 +16,7 @@ header { background-color: #231F20;
          color: #ffffff;
        font-family: Arial, helvetica;
 }
-h1 { line-height: 200%;
+h1 { 
         text-align: center;
     background-repeat: no-repeat;
     background-position: right;
