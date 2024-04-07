@@ -1,7 +1,7 @@
 body { background-color:#526775;
       background-image: url(background.jpg);
       color: #000000;
-      font-family: Arial, helvetica;;
+      font-family: Arial, helvetica;
 }
 #wrapper { width: 80%;
            min-width: 700px;
