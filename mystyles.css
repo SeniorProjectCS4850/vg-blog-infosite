@@ -12,8 +12,7 @@ body { background-color:#526775;
            box-shadow: 3px 3px 3px #666666;
 }
 header { background-color: #231F20;
-		 border-color: bisque;
-		 border-width: 10px;
+		 border: 10px solid bisque;
          color: #ffffff;
        font-family: Arial, helvetica;
 }
@@ -26,6 +25,11 @@ h1 { line-height: 200%;
     margin-bottom: 0;
 background-color: goldenrod;
 color: #000000;
+font-size: 60px;
+}
+
+h3 {
+	text-align: center;	
 }
 nav { font-weight: bold;
      padding: 5px;
