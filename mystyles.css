@@ -25,7 +25,7 @@ h1 { line-height: 200%;
     height: 72px;
     margin-bottom: 0;
 background-color: burlywood;
-color: #ffffff;
+color: #000000;
 }
 nav { font-weight: bold;
      padding: 5px;
@@ -35,8 +35,8 @@ nav { font-weight: bold;
 }
 nav a { text-decoration: none; }
 nav a:link { color: white; }
-nav a:visited { color: #526675; }
-nav a:hover { color: beige; }
+nav a:visited { color: #527567; }
+nav a:hover { color: #526775; }
 nav ul { list-style-type: none;
        margin: 0;
        padding-left: 0;
