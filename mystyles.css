@@ -11,17 +11,19 @@ body { background-color:#526775;
            background-color: burlywood;
            box-shadow: 3px 3px 3px #666666;
 }
-header { background-color: #231F20;
+header { background-color: #263337;
 		 border: 10px solid bisque;
          color: #ffffff;
-       font-family: Arial, helvetica;
+       font-family: Times New Roman, Arial, helvetica;
 }
 h1 { 
-        text-align: center;
+   	line-height: 125%; 
+	text-align: center;
     background-repeat: no-repeat;
     background-position: right;
     padding-left: 20px;
-    height: 72px;
+    height: 130px;
+	margin-top: 10px;
     margin-bottom: 0;
 background-color: goldenrod;
 color: #000000;
