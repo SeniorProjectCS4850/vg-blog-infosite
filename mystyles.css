@@ -1,4 +1,4 @@
-body { background-color:#FFC425;
+body { background-color:#526775;
       background-image: url(background.jpg);
       color: #000000;
       font-family: Arial, helvetica;;
@@ -8,10 +8,12 @@ body { background-color:#FFC425;
            max-width: 1024px;
            margin-right: auto;
            margin-left: auto;
-           background-color:#55aa55;
+           background-color: burlywood;
            box-shadow: 3px 3px 3px #666666;
 }
 header { background-color: #231F20;
+		 border-color: bisque;
+		 border-width: 10px;
          color: #ffffff;
        font-family: Arial, helvetica;;
 }
@@ -32,9 +34,9 @@ nav { font-weight: bold;
      padding: 20px 5px 0 20px;
 }
 nav a { text-decoration: none; }
-nav a:link { color: #000033; }
-nav a:visited { color: #344873 }
-nav a:hover { color: #FFFFFF; }
+nav a:link { color: white; }
+nav a:visited { color: #526675; }
+nav a:hover { color: beige; }
 nav ul { list-style-type: none;
        margin: 0;
        padding-left: 0;
