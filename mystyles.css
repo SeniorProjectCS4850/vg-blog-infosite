@@ -12,8 +12,7 @@ body { background-color:#526775;
            box-shadow: 3px 3px 3px #666666;
 }
 header { background-color: #263337;
-		 border: 10px solid bisque;
-         color: #ffffff;
+		color: #ffffff;
        font-family: Times New Roman, Arial, helvetica;
 }
 h1 { 
@@ -31,15 +30,14 @@ color: #000000;
 font-size: 40px;
 }
 
-h3 {
+header h3 {
 	text-align: center;
 	color: #f1f1f1;	
 }
 nav { font-weight: bold;
-     padding: 5px;
      float:left;
-     width: 160px;
-     padding: 20px 5px 0 20px;
+     width: 180px;
+     padding: none;
 }
 nav a { text-decoration: none; }
 nav a:link { color: white; }
@@ -66,16 +64,61 @@ footer { font-size: 0.70em;
        background-color: #FFFFFF;
 }
 
+#listheader {
+	border: 3px solid #263337;
+	
+}
+
+li {
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+#imgcontainer {
+	width: 100%;
+	display: inline;
+	vertical-align: middle;
+}
+
 main { padding-left: 20px;
         padding-right: 20px;
-        background-color: #FFFFFF;
-        margin-left: 170px;
+        background-color: beige;
+        margin-left: 180px;
         padding-top: 1px;
         padding-bottom: 1px;
 }
-main img { float: left;
-           padding-right: 20px;
-           padding-bottom: 20px;
+#teammembers img { 
+		   height: 180px;
+}
+
+#overview img {
+	border: 5px solid goldenrod;
+	display: block;
+	margin: 0 auto;
+}
+
+footer {
+	margin-left: 180px;
+}
+
+table, tr, td {
+	border: 2px solid #526775;
+}
+
+table {
+	width: 100%;
+	padding: 10px;
+}
+
+td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#ksulogo {
+	width="473";
+	height="106";
+	transform: scale(0.75); 
 }
 main ul { list-style-position: inside; }
 .clear { clear: both; }
